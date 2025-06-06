@@ -1,0 +1,62 @@
+body {
+    background-color: #f4f4f4;
+    background-image: url(https://img.freepik.com/vetores-gratis/desenho-de-paisagem-minimalista-abstrato-pintado-a-mao_1048-19125.jpg?semt=ais_hybrid&w=740);
+    margin-top: 80px; 
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.text, h2 {
+    flex: 1;
+    text-align: justify;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    margin-left: 20px;
+}
+
+h2, text {
+    color: #000000;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 8px 15px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block; 
+    margin: 10px 5px;
+}
+
+
+button:hover {
+    background-color: #023e8a;
+}
